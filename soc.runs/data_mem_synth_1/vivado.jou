@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Sep 26 14:31:08 2017
+# Process ID: 14664
+# Current directory: F:/VivadoProject/soc/soc.runs/data_mem_synth_1
+# Command line: vivado.exe -log data_mem.vds -mode batch -messageDb vivado.pb -notrace -source data_mem.tcl
+# Log file: F:/VivadoProject/soc/soc.runs/data_mem_synth_1/data_mem.vds
+# Journal file: F:/VivadoProject/soc/soc.runs/data_mem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source data_mem.tcl -notrace

@@ -1,0 +1,257 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Tue Sep 26 15:32:20 2017
+| Host         : admin running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_design_control_sets_placed.rpt
+| Design       : top_design
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |   204 |
+| Minimum Number of register sites lost to control set restrictions |   912 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               5 |            2 |
+| No           | No                    | Yes                    |             676 |          311 |
+| No           | Yes                   | No                     |              66 |           47 |
+| Yes          | No                    | No                     |              99 |           40 |
+| Yes          | No                    | Yes                    |            2825 |         1213 |
+| Yes          | Yes                   | No                     |              57 |           18 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+--------------------------------------------------------------+----------------------------------------------------------+------------------+----------------+
+|              Clock Signal              |                         Enable Signal                        |                     Set/Reset Signal                     | Slice Load Count | Bel Load Count |
++----------------------------------------+--------------------------------------------------------------+----------------------------------------------------------+------------------+----------------+
+|  integer_unit/em_reg/disp7_4_reg[14]_P |                                                              | integer_unit/em_reg/disp7_4_reg[14]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[15]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[8]_C                      |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[8]_P                      |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[0]_P  |                                                              | integer_unit/em_reg/disp3_0_reg[0]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[10]_P |                                                              | integer_unit/em_reg/disp3_0_reg[10]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[11]_P |                                                              | integer_unit/em_reg/disp3_0_reg[11]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[13]_P |                                                              | integer_unit/em_reg/disp3_0_reg[13]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[12]_P |                                                              | integer_unit/em_reg/disp3_0_reg[12]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[14]_P |                                                              | integer_unit/em_reg/disp3_0_reg[14]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[15]_P |                                                              | integer_unit/em_reg/disp3_0_reg[15]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[1]_P  |                                                              | integer_unit/em_reg/disp3_0_reg[1]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[2]_P  |                                                              | integer_unit/em_reg/disp3_0_reg[2]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[3]_P  |                                                              | integer_unit/em_reg/disp3_0_reg[3]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[4]_P  |                                                              | integer_unit/em_reg/disp3_0_reg[4]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[5]_P  |                                                              | integer_unit/em_reg/disp3_0_reg[5]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[6]_P  |                                                              | integer_unit/em_reg/disp3_0_reg[6]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[7]_P  |                                                              | integer_unit/em_reg/disp3_0_reg[7]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[8]_P  |                                                              | integer_unit/em_reg/disp3_0_reg[8]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp3_0_reg[9]_P  |                                                              | integer_unit/em_reg/disp3_0_reg[9]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[0]_P  |                                                              | integer_unit/em_reg/disp7_4_reg[0]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[10]_P |                                                              | integer_unit/em_reg/disp7_4_reg[10]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[11]_P |                                                              | integer_unit/em_reg/disp7_4_reg[11]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[12]_P |                                                              | integer_unit/em_reg/disp7_4_reg[12]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[13]_P |                                                              | integer_unit/em_reg/disp7_4_reg[13]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[11]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[15]_P |                                                              | integer_unit/em_reg/disp7_4_reg[15]_C                    |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[1]_P  |                                                              | integer_unit/em_reg/disp7_4_reg[1]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[2]_P  |                                                              | integer_unit/em_reg/disp7_4_reg[2]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[3]_P  |                                                              | integer_unit/em_reg/disp7_4_reg[3]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[4]_P  |                                                              | integer_unit/em_reg/disp7_4_reg[4]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[5]_P  |                                                              | integer_unit/em_reg/disp7_4_reg[5]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[6]_P  |                                                              | integer_unit/em_reg/disp7_4_reg[6]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[7]_P  |                                                              | integer_unit/em_reg/disp7_4_reg[7]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[8]_P  |                                                              | integer_unit/em_reg/disp7_4_reg[8]_C                     |                1 |              1 |
+|  integer_unit/em_reg/disp7_4_reg[9]_P  |                                                              | integer_unit/em_reg/disp7_4_reg[9]_C                     |                1 |              1 |
+|  integer_unit/em_reg/dispsp_reg[10]_P  |                                                              | integer_unit/em_reg/dispsp_reg[10]_C                     |                1 |              1 |
+|  integer_unit/em_reg/dispsp_reg[11]_P  |                                                              | integer_unit/em_reg/dispsp_reg[11]_C                     |                1 |              1 |
+|  integer_unit/em_reg/dispsp_reg[12]_P  |                                                              | integer_unit/em_reg/dispsp_reg[12]_C                     |                1 |              1 |
+|  integer_unit/em_reg/dispsp_reg[13]_P  |                                                              | integer_unit/em_reg/dispsp_reg[13]_C                     |                1 |              1 |
+|  integer_unit/em_reg/dispsp_reg[14]_P  |                                                              | integer_unit/em_reg/dispsp_reg[14]_C                     |                1 |              1 |
+|  integer_unit/em_reg/dispsp_reg[15]_P  |                                                              | integer_unit/em_reg/dispsp_reg[15]_C                     |                1 |              1 |
+|  integer_unit/em_reg/dispsp_reg[8]_P   |                                                              | integer_unit/em_reg/dispsp_reg[8]_C                      |                1 |              1 |
+|  integer_unit/em_reg/dispsp_reg[9]_P   |                                                              | integer_unit/em_reg/dispsp_reg[9]_C                      |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              |                                                          |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[9]_C                      |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[0]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[0]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[10]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[10]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[9]_P                      |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[11]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[12]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[13]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[12]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[13]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[14]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[14]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[15]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[15]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[1]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[1]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[2]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[2]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[3]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[3]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[4]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[4]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[5]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[5]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[6]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[6]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[7]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[7]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[8]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[8]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[9]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp3_0_reg[9]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[0]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[0]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[10]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[10]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[11]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[11]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[12]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[12]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[13]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[13]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[14]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[14]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[15]_C                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[15]_P                    |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[1]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[1]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[2]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[2]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[3]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[3]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[4]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[4]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[5]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[5]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[6]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[6]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[7]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[7]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[8]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[8]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[9]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/disp7_4_reg[9]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[10]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[10]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[11]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[11]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[12]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[12]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[13]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[13]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[14]_C                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[14]_P                     |                1 |              1 |
+|  clk_IBUF_BUFG                         |                                                              | integer_unit/em_reg/dispsp_reg[15]_C                     |                1 |              1 |
+|  io_part/clock16/clk_sys               |                                                              | reset_IBUF                                               |                1 |              3 |
+|  io_part/clock16/clk_sys               | io_part/disp16/clrn                                          | io_part/disp16/an[7]_i_1_n_0                             |                1 |              4 |
+|  io_part/clock16/clk_sys               | io_part/disp16/clrn                                          | io_part/disp16/an[3]_i_1_n_0                             |                1 |              4 |
+|  register_reg[0][31]_i_3_n_0           |                                                              |                                                          |                1 |              4 |
+|  clk_IBUF_BUFG                         | float_point_unit/f_div/frac_newton/count[4]_i_1_n_0          | reset_IBUF                                               |                2 |              5 |
+|  clk_IBUF_BUFG                         | float_point_unit/f_sqrt/frac_newton/count[4]_i_1__0_n_0      | reset_IBUF                                               |                3 |              5 |
+|  io_part/clock16/clk_sys               | io_part/disp16/clrn                                          |                                                          |                4 |              7 |
+|  clk_IBUF_BUFG                         | float_point_unit/f_div/frac_newton/reg_x[24]_i_1_n_0         |                                                          |                3 |              9 |
+|  clk_IBUF_BUFG                         | float_point_unit/f_sqrt/frac_newton/reg_x[23]_i_1__0_n_0     |                                                          |                3 |             11 |
+|  clk_IBUF_BUFG                         | float_point_unit/f_div/frac_newton/reg_x[24]_i_1_n_0         | float_point_unit/f_div/frac_newton/reg_x[25]_i_1_n_0     |                7 |             19 |
+|  clk_IBUF_BUFG                         | float_point_unit/f_sqrt/frac_newton/reg_d[23]_i_1_n_0        |                                                          |                8 |             24 |
+|  clk_IBUF_BUFG                         |                                                              | io_part/clock16/clear                                    |                7 |             26 |
+|  clk_IBUF_BUFG                         | float_point_unit/f_sqrt/frac_newton/reg_x[23]_i_1__0_n_0     | float_point_unit/f_sqrt/frac_newton/reg_x[25]_i_1__0_n_0 |                9 |             30 |
+| ~clk_IBUF_BUFG                         | float_point_unit/fpr/register[24][31]_i_1_n_0                | reset_IBUF                                               |               11 |             32 |
+| ~clk_IBUF_BUFG                         | float_point_unit/fpr/register[2][31]_i_1_n_0                 | reset_IBUF                                               |               11 |             32 |
+| ~clk_IBUF_BUFG                         | float_point_unit/fpr/register[31][31]_i_1_n_0                | reset_IBUF                                               |               18 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[30][0][0]                   | reset_IBUF                                               |               17 |             32 |
+|  clk_IBUF_BUFG                         | integer_unit/fd_reg/instruction/E[0]                         | reset_IBUF                                               |               13 |             32 |
+|  clk_IBUF_BUFG                         | integer_unit/fd_reg/instruction/q_reg[31]_0[0]               | reset_IBUF                                               |               14 |             32 |
+|  clk_IBUF_BUFG                         | integer_unit/fd_reg/instruction/q_reg[31]_1[0]               | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/E[0]                                     | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[10][0][0]                   | reset_IBUF                                               |                9 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[10][31][0]                  | reset_IBUF                                               |               15 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[11][0][0]                   | reset_IBUF                                               |               10 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[12][31][0]                  | reset_IBUF                                               |               16 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[11][31][0]                  | reset_IBUF                                               |               14 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[12][0]_0[0]                 | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[13][0][0]                   | reset_IBUF                                               |               14 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[13][31][0]                  | reset_IBUF                                               |               14 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[14][0][0]                   | reset_IBUF                                               |               11 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[14][31][0]                  | reset_IBUF                                               |               20 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[15][0][0]                   | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[15][31][0]                  | reset_IBUF                                               |               16 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[17][31][0]                  | reset_IBUF                                               |               14 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[18][0][0]                   | reset_IBUF                                               |               11 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[18][31][0]                  | reset_IBUF                                               |               14 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[19][31][0]                  | reset_IBUF                                               |               18 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[1][0][0]                    | reset_IBUF                                               |                9 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[1][31][0]                   | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[20][0][0]                   | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[20][31][0]                  | reset_IBUF                                               |               16 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[21][31][0]                  | reset_IBUF                                               |               15 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[22][0][0]                   | reset_IBUF                                               |               15 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[22][31][0]                  | reset_IBUF                                               |               17 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[23][31]_0[0]                | reset_IBUF                                               |               21 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[24][31][0]                  | reset_IBUF                                               |               14 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[25][0][0]                   | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[25][31][0]                  | reset_IBUF                                               |               16 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[26][0]_0[0]                 | reset_IBUF                                               |               13 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[26][31][0]                  | reset_IBUF                                               |               15 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[27][0][0]                   | reset_IBUF                                               |               11 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[27][31][0]                  | reset_IBUF                                               |               14 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[28][0][0]                   | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[28][31][0]                  | reset_IBUF                                               |               21 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[29][0]_0[0]                 | reset_IBUF                                               |               13 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[29][31][0]                  | reset_IBUF                                               |               19 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[2][31][0]                   | reset_IBUF                                               |               13 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[16][31][0]                  | reset_IBUF                                               |               14 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[30][31][0]                  | reset_IBUF                                               |               24 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[31][31][0]                  | reset_IBUF                                               |               21 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[3][0][0]                    | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[3][31][0]                   | reset_IBUF                                               |               11 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[4][0][0]                    | reset_IBUF                                               |               11 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[4][31][0]                   | reset_IBUF                                               |               11 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[5][0][0]                    | reset_IBUF                                               |               13 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[5][31][0]                   | reset_IBUF                                               |               14 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[6][0][0]                    | reset_IBUF                                               |               15 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[6][31][0]                   | reset_IBUF                                               |               21 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[7][0][0]                    | reset_IBUF                                               |               19 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[7][31][0]                   | reset_IBUF                                               |               25 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[8][0][0]                    | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[8][31][0]                   | reset_IBUF                                               |               22 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[9][0][0]                    | reset_IBUF                                               |               14 |             32 |
+| ~clk_IBUF_BUFG                         | integer_unit/mw_reg/register_reg[9][31][0]                   | reset_IBUF                                               |               21 |             32 |
+| ~clk_IBUF_BUFG                         | float_point_unit/fpr/register[16][31]_i_1_n_0                | reset_IBUF                                               |                9 |             32 |
+| ~clk_IBUF_BUFG                         | float_point_unit/fpr/register[17][31]_i_1_n_0                | reset_IBUF                                               |               10 |             32 |
+| ~clk_IBUF_BUFG                         | float_point_unit/fpr/register[19][31]_i_1_n_0                | reset_IBUF                                               |               12 |             32 |
+| ~clk_IBUF_BUFG                         | float_point_unit/fpr/register[21][31]_i_1_n_0                | reset_IBUF                                               |               13 |             32 |
+| ~clk_IBUF_BUFG                         | float_point_unit/fpr/register[23][31]_i_1_n_0                | reset_IBUF                                               |               18 |             32 |
+|  clk_IBUF_BUFG                         | float_point_unit/f_div/frac_newton/reg_a[23]_i_1_n_0         |                                                          |               22 |             48 |
+|  clk_IBUF_BUFG                         | float_point_unit/f_div/frac_newton/wpcir_with_no_cache_stall | reset_IBUF                                               |               46 |            126 |
+|  clk_IBUF_BUFG                         | float_point_unit/f_div/frac_newton/o_ae00_reg                | reset_IBUF                                               |              202 |            577 |
+|  clk_IBUF_BUFG                         |                                                              | reset_IBUF                                               |              230 |            593 |
++----------------------------------------+--------------------------------------------------------------+----------------------------------------------------------+------------------+----------------+
+
+

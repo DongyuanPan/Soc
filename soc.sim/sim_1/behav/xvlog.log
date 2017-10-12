@@ -1,0 +1,131 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/g_p.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module g_p
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/add1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/wallace_tree26x24_unsigned_partial.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_tree26x24_unsigned_partial
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/wallace_tree28x24_unsigned.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_tree28x24_unsigned
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/wallace_tree26_unsigned.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_tree26_unsigned
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/wallace_tree26x24_unsigned.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_tree26x24_unsigned
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/wallace_tree24_unsigned_partial.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_tree24_unsigned_partial
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/shift_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/addsub32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addsub32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/shift_to_msb_equ_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_to_msb_equ_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/shift_even_bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_even_bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/root_newton24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module root_newton24
+WARNING: [VRFC 10-756] identifier x52 is used before its declaration [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/root_newton24.v:56]
+WARNING: [VRFC 10-756] identifier e2p is used before its declaration [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/root_newton24.v:83]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/reg_mul_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_mul_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/reg_e123.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_e123
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/reg_cal_norm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_cal_norm
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/reg_align_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_align_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/reg_add_norm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_add_norm
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeimem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeimem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/newton24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module newton24
+WARNING: [VRFC 10-756] identifier x52 is used before its declaration [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/newton24.v:56]
+WARNING: [VRFC 10-756] identifier e2p is used before its declaration [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/newton24.v:82]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fsqrt_reg_e123.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsqrt_reg_e123
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fmul_norm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fmul_norm
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fmul_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fmul_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadd_norm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fadd_norm
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadd_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fadd_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadd_align.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fadd_align
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/dffe32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffe32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/imports/new/DISP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DISP
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/regfile2w.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile2w
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipepc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipepc
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipemwreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipemwreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipemem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipemem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeir.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeir
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeif.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeif
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeidcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeidcu
+WARNING: [VRFC 10-756] identifier exc_ovr is used before its declaration [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeidcu.v:259]
+WARNING: [VRFC 10-756] identifier exc_ovr is used before its declaration [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeidcu.v:274]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeexe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeexe
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeemreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeemreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipedereg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipedereg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/mux2x5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/imports/new/ioread.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ioread
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/imports/new/IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IO
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fsqrt_newton.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsqrt_newton
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fmul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fmul
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fdiv_newton.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fdiv_newton
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/imports/new/clock_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/iu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iu
+INFO: [VRFC 10-2458] undeclared symbol mtc0, assumed default net type wire [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/iu.v:131]
+INFO: [VRFC 10-2458] undeclared symbol misbr, assumed default net type wire [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/iu.v:160]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/imports/new/IOCtrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IOCtrl
+INFO: [VRFC 10-2458] undeclared symbol CTCCtrl, assumed default net type wire [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/imports/new/IOCtrl.v:52]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.srcs/sources_1/imports/Desktop/top_design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_design
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/soc/soc.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

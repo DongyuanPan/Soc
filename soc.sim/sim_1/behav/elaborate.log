@@ -1,0 +1,94 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 21514bce44ac4cb1a24fd2b053bba385 --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_3_1 -L unisims_ver -L unimacro_ver -L secureip --snapshot top_design_behav xil_defaultlib.top_design xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-142] f0 was previously declared with a different range [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fmul_norm.v:33]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_textio
+Compiling module xil_defaultlib.dffe32
+Compiling module xil_defaultlib.pipepc
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.g_p
+Compiling module xil_defaultlib.cla_2
+Compiling module xil_defaultlib.cla_4
+Compiling module xil_defaultlib.cla_8
+Compiling module xil_defaultlib.cla_16
+Compiling module xil_defaultlib.cla_32
+Compiling module xil_defaultlib.cla32
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_output_stage [\blk_mem_gen_v8_3_1_output_stage...]
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_output_stage [\blk_mem_gen_v8_3_1_output_stage...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_softecc_output_reg_stage [\blk_mem_gen_v8_3_1_softecc_outp...]
+Compiling architecture mem_module_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_mem_module [\blk_mem_gen_v8_3_1_mem_module("...]
+Compiling architecture behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1 [\blk_mem_gen_v8_3_1("blk_mem_gen...]
+Compiling architecture inst_rom_arch of entity xil_defaultlib.inst_rom [inst_rom_default]
+Compiling module xil_defaultlib.pipeimem
+Compiling module xil_defaultlib.pipeif
+Compiling module xil_defaultlib.pipeir
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2x5
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.pipeidcu
+Compiling module xil_defaultlib.pipedereg
+Compiling module xil_defaultlib.addsub32
+Compiling module xil_defaultlib.shift_mux
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.pipeexe
+Compiling module xil_defaultlib.pipeemreg
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_output_stage [\blk_mem_gen_v8_3_1_output_stage...]
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_output_stage [\blk_mem_gen_v8_3_1_output_stage...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_softecc_output_reg_stage [\blk_mem_gen_v8_3_1_softecc_outp...]
+Compiling architecture mem_module_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_mem_module [\blk_mem_gen_v8_3_1_mem_module("...]
+Compiling architecture behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1 [\blk_mem_gen_v8_3_1("blk_mem_gen...]
+Compiling architecture data_mem_arch of entity xil_defaultlib.data_mem [data_mem_default]
+Compiling module xil_defaultlib.pipemem
+Compiling module xil_defaultlib.pipemwreg
+Compiling module xil_defaultlib.iu
+Compiling module xil_defaultlib.regfile2w
+Compiling module xil_defaultlib.fadd_align
+Compiling module xil_defaultlib.reg_align_cal
+Compiling module xil_defaultlib.fadd_cal
+Compiling module xil_defaultlib.reg_cal_norm
+Compiling module xil_defaultlib.fadd_norm
+Compiling module xil_defaultlib.fadder
+Compiling module xil_defaultlib.add1
+Compiling module xil_defaultlib.wallace_tree24_unsigned_partial
+Compiling module xil_defaultlib.fmul_mul
+Compiling module xil_defaultlib.reg_mul_add
+Compiling module xil_defaultlib.reg_add_norm
+Compiling module xil_defaultlib.fmul_norm
+Compiling module xil_defaultlib.fmul
+Compiling module xil_defaultlib.shift_to_msb_equ_1
+Compiling module xil_defaultlib.reg_e123
+Compiling module xil_defaultlib.wallace_tree26x24_unsigned_parti...
+Compiling module xil_defaultlib.wallace_tree26x24_unsigned
+Compiling module xil_defaultlib.wallace_tree26_unsigned
+Compiling module xil_defaultlib.newton24
+Compiling module xil_defaultlib.fdiv_newton
+Compiling module xil_defaultlib.shift_even_bits
+Compiling module xil_defaultlib.fsqrt_reg_e123
+Compiling module xil_defaultlib.wallace_tree28x24_unsigned
+Compiling module xil_defaultlib.root_newton24
+Compiling module xil_defaultlib.fsqrt_newton
+Compiling module xil_defaultlib.fpu
+Compiling module xil_defaultlib.IO
+Compiling module xil_defaultlib.ioread
+Compiling module xil_defaultlib.clock_div
+Compiling module xil_defaultlib.DISP
+Compiling module xil_defaultlib.IOCtrl
+Compiling module xil_defaultlib.top_design
+Compiling module xil_defaultlib.glbl
+Waiting for 1 sub-compilation(s) to finish...
+Built simulation snapshot top_design_behav

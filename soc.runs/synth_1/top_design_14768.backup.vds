@@ -1,0 +1,105 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Sep 26 14:39:09 2017
+# Process ID: 14768
+# Current directory: F:/VivadoProject/soc/soc.runs/synth_1
+# Command line: vivado.exe -log top_design.vds -mode batch -messageDb vivado.pb -notrace -source top_design.tcl
+# Log file: F:/VivadoProject/soc/soc.runs/synth_1/top_design.vds
+# Journal file: F:/VivadoProject/soc/soc.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_design.tcl -notrace
+Command: synth_design -top top_design -part xc7a100tfgg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 296.086 ; gain = 124.766
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_design' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/Desktop/top_design.v:23]
+INFO: [Synth 8-638] synthesizing module 'iu' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/iu.v:23]
+	Parameter EXC_BASE bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'pipepc' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipepc.v:22]
+INFO: [Synth 8-638] synthesizing module 'dffe32' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/dffe32.v:22]
+INFO: [Synth 8-256] done synthesizing module 'dffe32' (1#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/dffe32.v:22]
+INFO: [Synth 8-256] done synthesizing module 'pipepc' (2#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipepc.v:22]
+INFO: [Synth 8-638] synthesizing module 'pipeif' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeif.v:22]
+INFO: [Synth 8-638] synthesizing module 'mux4x32' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/mux4x32.v:22]
+INFO: [Synth 8-256] done synthesizing module 'mux4x32' (3#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/mux4x32.v:22]
+INFO: [Synth 8-638] synthesizing module 'cla32' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla32.v:22]
+INFO: [Synth 8-638] synthesizing module 'cla_32' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_32.v:22]
+INFO: [Synth 8-638] synthesizing module 'cla_16' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_16.v:22]
+INFO: [Synth 8-638] synthesizing module 'cla_8' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_8.v:22]
+INFO: [Synth 8-638] synthesizing module 'cla_4' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_4.v:22]
+INFO: [Synth 8-638] synthesizing module 'cla_2' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_2.v:22]
+INFO: [Synth 8-638] synthesizing module 'add' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/add.v:22]
+INFO: [Synth 8-256] done synthesizing module 'add' (4#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/add.v:22]
+INFO: [Synth 8-638] synthesizing module 'g_p' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/g_p.v:22]
+INFO: [Synth 8-256] done synthesizing module 'g_p' (5#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/g_p.v:22]
+INFO: [Synth 8-256] done synthesizing module 'cla_2' (6#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_2.v:22]
+INFO: [Synth 8-256] done synthesizing module 'cla_4' (7#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_4.v:22]
+INFO: [Synth 8-256] done synthesizing module 'cla_8' (8#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_8.v:22]
+INFO: [Synth 8-256] done synthesizing module 'cla_16' (9#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_16.v:22]
+INFO: [Synth 8-256] done synthesizing module 'cla_32' (10#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla_32.v:22]
+INFO: [Synth 8-256] done synthesizing module 'cla32' (11#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/cla32.v:22]
+WARNING: [Synth 8-350] instance 'pc_plus4' of module 'cla32' requires 5 connections, but only 4 given [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeif.v:28]
+INFO: [Synth 8-638] synthesizing module 'pipeimem' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeimem.v:23]
+INFO: [Synth 8-638] synthesizing module 'inst_rom' [F:/VivadoProject/soc/soc.runs/synth_1/.Xil/Vivado-14768-/realtime/inst_rom_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'inst_rom' (12#1) [F:/VivadoProject/soc/soc.runs/synth_1/.Xil/Vivado-14768-/realtime/inst_rom_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'pipeimem' (13#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeimem.v:23]
+INFO: [Synth 8-256] done synthesizing module 'pipeif' (14#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeif.v:22]
+INFO: [Synth 8-638] synthesizing module 'pipeir' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeir.v:23]
+INFO: [Synth 8-256] done synthesizing module 'pipeir' (15#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeir.v:23]
+INFO: [Synth 8-638] synthesizing module 'regfile' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/regfile.v:22]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (16#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/regfile.v:22]
+INFO: [Synth 8-638] synthesizing module 'mux2x5' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/mux2x5.v:22]
+INFO: [Synth 8-256] done synthesizing module 'mux2x5' (17#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/mux2x5.v:22]
+WARNING: [Synth 8-350] instance 'br_addr' of module 'cla32' requires 5 connections, but only 4 given [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/iu.v:115]
+INFO: [Synth 8-638] synthesizing module 'mux2x32' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/mux2x32.v:22]
+INFO: [Synth 8-256] done synthesizing module 'mux2x32' (18#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/mux2x32.v:22]
+INFO: [Synth 8-638] synthesizing module 'pipeidcu' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeidcu.v:22]
+INFO: [Synth 8-256] done synthesizing module 'pipeidcu' (19#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeidcu.v:22]
+INFO: [Synth 8-638] synthesizing module 'pipedereg' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipedereg.v:22]
+INFO: [Synth 8-256] done synthesizing module 'pipedereg' (20#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipedereg.v:22]
+INFO: [Synth 8-638] synthesizing module 'pipeexe' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeexe.v:23]
+WARNING: [Synth 8-350] instance 'ret_addr' of module 'cla32' requires 5 connections, but only 4 given [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeexe.v:37]
+INFO: [Synth 8-638] synthesizing module 'alu' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/alu.v:22]
+INFO: [Synth 8-638] synthesizing module 'addsub32' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/addsub32.v:22]
+INFO: [Synth 8-256] done synthesizing module 'addsub32' (21#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/addsub32.v:22]
+INFO: [Synth 8-638] synthesizing module 'shift_mux' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/shift_mux.v:22]
+	Parameter z bound to: 16'b0000000000000000 
+INFO: [Synth 8-256] done synthesizing module 'shift_mux' (22#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/shift_mux.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/alu.v:47]
+INFO: [Synth 8-256] done synthesizing module 'alu' (23#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/alu.v:22]
+INFO: [Synth 8-256] done synthesizing module 'pipeexe' (24#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeexe.v:23]
+INFO: [Synth 8-638] synthesizing module 'pipeemreg' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeemreg.v:22]
+INFO: [Synth 8-256] done synthesizing module 'pipeemreg' (25#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipeemreg.v:22]
+INFO: [Synth 8-638] synthesizing module 'pipemem' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipemem.v:22]
+INFO: [Synth 8-638] synthesizing module 'data_mem' [F:/VivadoProject/soc/soc.runs/synth_1/.Xil/Vivado-14768-/realtime/data_mem_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'data_mem' (26#1) [F:/VivadoProject/soc/soc.runs/synth_1/.Xil/Vivado-14768-/realtime/data_mem_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'pipemem' (27#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipemem.v:22]
+INFO: [Synth 8-638] synthesizing module 'pipemwreg' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipemwreg.v:22]
+INFO: [Synth 8-256] done synthesizing module 'pipemwreg' (28#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/pipemwreg.v:22]
+INFO: [Synth 8-256] done synthesizing module 'iu' (29#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/iu.v:23]
+INFO: [Synth 8-638] synthesizing module 'fpu' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fpu.v:23]
+INFO: [Synth 8-638] synthesizing module 'regfile2w' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/regfile2w.v:23]
+INFO: [Synth 8-256] done synthesizing module 'regfile2w' (30#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/regfile2w.v:23]
+INFO: [Synth 8-638] synthesizing module 'fadder' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadder.v:23]
+INFO: [Synth 8-638] synthesizing module 'fadd_align' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadd_align.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fadd_align' (31#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadd_align.v:23]
+INFO: [Synth 8-638] synthesizing module 'reg_align_cal' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/reg_align_cal.v:23]
+INFO: [Synth 8-256] done synthesizing module 'reg_align_cal' (32#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/reg_align_cal.v:23]
+INFO: [Synth 8-638] synthesizing module 'fadd_cal' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadd_cal.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fadd_cal' (33#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadd_cal.v:23]
+INFO: [Synth 8-638] synthesizing module 'reg_cal_norm' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/reg_cal_norm.v:23]
+INFO: [Synth 8-256] done synthesizing module 'reg_cal_norm' (34#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/reg_cal_norm.v:23]
+INFO: [Synth 8-638] synthesizing module 'fadd_norm' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadd_norm.v:23]
+INFO: [Synth 8-226] default block is never used [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadd_norm.v:86]
+INFO: [Synth 8-256] done synthesizing module 'fadd_norm' (35#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadd_norm.v:23]
+INFO: [Synth 8-256] done synthesizing module 'fadder' (36#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fadder.v:23]
+INFO: [Synth 8-638] synthesizing module 'fmul' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fmul.v:23]
+INFO: [Synth 8-638] synthesizing module 'fmul_mul' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/fmul_mul.v:23]
+INFO: [Synth 8-638] synthesizing module 'wallace_tree24_unsigned_partial' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/wallace_tree24_unsigned_partial.v:23]
+INFO: [Synth 8-638] synthesizing module 'add1' [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/add1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'add1' (37#1) [F:/VivadoProject/soc/soc.srcs/sources_1/imports/sources_1/new/add1.v:23]
